@@ -1,18 +1,13 @@
 {
-  "type":"postgres",
+  "type": "postgres",
   "host": "localhost",
-  "post": 5432 ,
+  "port": 5432,
   "username": "postgres",
-  "password":"docker",
-  "database": "gostack_gobarber",
-  "entities": [
-     "./src/models/*.ts"
-  ],
-  "migrations": [
-    "./src/database/migrations/*.ts"
-  ],
+  "password": "docker",
+  "database": "gostack_desafio06",
+  "entities": ["./src/models/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
   "cli": {
     "migrationsDir": "./src/database/migrations"
   }
-
 }

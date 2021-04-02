@@ -1,6 +1,0 @@
-"Arquivo para registrar tudo que foi instalado"
-
-
-yarn add uuid ou uuidv4 
-yarn add date-fns
-yarn typeorm migration:create -n CreateAppointments
